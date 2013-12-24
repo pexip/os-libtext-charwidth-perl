@@ -1,3 +1,9 @@
+libtext-charwidth-perl (0.04-7build1pexip1) pexip; urgency=low
+
+  * Prepare Pexip packaging
+
+ -- John-Mark Bell <jmb@pexip.com>  Tue, 24 Dec 2013 22:01:12 +0000
+
 libtext-charwidth-perl (0.04-7build1) precise; urgency=low
 
   * Rebuild for Perl 5.14.

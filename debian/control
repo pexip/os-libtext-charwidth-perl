@@ -1,10 +1,12 @@
 Source: libtext-charwidth-perl
 Section: perl
 Priority: required
-Maintainer: Anibal Monsalve Salazar <anibal@debian.org>
+Maintainer: Pexip AS <packaging@pexip.com>
+XSBC-Pexip-Original-Maintainer: Anibal Monsalve Salazar <anibal@debian.org>
 Build-Depends: debhelper (>= 7), perl (>= 5.8.0)
 Standards-Version: 3.9.2
 Homepage: http://search.cpan.org/search?module=Text::CharWidth
+XS-Pexip-Upstream: http://archive.ubuntu.com/ubuntu/ precise
 
 Package: libtext-charwidth-perl
 Architecture: any
