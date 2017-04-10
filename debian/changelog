@@ -1,3 +1,9 @@
+libtext-charwidth-perl (0.04-7+b3pexip1) pexip; urgency=low
+
+  * Migrate to Jessie
+
+ -- John-Mark Bell <jmb@pexip.com>  Tue, 11 Apr 2017 00:28:17 +0100
+
 libtext-charwidth-perl (0.04-7build1pexip1) pexip; urgency=low
 
   * Prepare Pexip packaging
