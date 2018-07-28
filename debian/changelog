@@ -1,3 +1,9 @@
+libtext-charwidth-perl (0.04-7+b5pexip1) pexip; urgency=low
+
+  * Migrate to Stretch
+
+ -- John-Mark Bell <jmb@pexip.com>  Sun, 29 Jul 2018 00:38:22 +0100
+
 libtext-charwidth-perl (0.04-7+b3pexip1) pexip; urgency=low
 
   * Migrate to Jessie
