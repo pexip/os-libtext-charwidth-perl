@@ -1,18 +1,26 @@
 Source: libtext-charwidth-perl
-Section: perl
-Priority: required
 Maintainer: Pexip AS <packaging@pexip.com>
-XSBC-Pexip-Original-Maintainer: Anibal Monsalve Salazar <anibal@debian.org>
-Build-Depends: debhelper (>= 7), perl (>= 5.8.0)
-Standards-Version: 3.9.2
-Homepage: http://search.cpan.org/search?module=Text::CharWidth
+XSBC-Pexip-Original-Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+XSBC-Pexip-Original-Uploaders: Laurent Baillet <laurent.baillet@gmail.com>
+Section: perl
+Testsuite: autopkgtest-pkg-perl
+Priority: required
+Build-Depends: debhelper-compat (= 12),
+               perl:native,
+               perl-xs-dev
+Standards-Version: 4.4.1
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libtext-charwidth-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libtext-charwidth-perl.git
+Homepage: https://metacpan.org/release/Text-CharWidth
 XS-Pexip-Upstream: http://deb.debian.org/debian/ bullseye
 
 Package: libtext-charwidth-perl
 Architecture: any
-Depends: ${shlibs:Depends}, ${perl:Depends}, ${misc:Depends}
+Depends: ${shlibs:Depends},
+         ${perl:Depends},
+         ${misc:Depends}
 Description: get display widths of characters on the terminal
- This module permits perl software to get the display widths of characters
+ Text::CharWidth permits one to get the display widths of characters
  and strings on the terminal, using wcwidth() and wcswidth() from libc.
  .
  It provides mbwidth(), mbswidth(), and mblen().

@@ -1,3 +1,48 @@
+libtext-charwidth-perl (0.04-10) unstable; urgency=medium
+
+  * Team upload.
+  * Update build system and dependencies for cross builds.
+    Build-depend on perl:native, perl-xs-dev, and remove cross-building
+    fragments from debian/rules, done by debhelper now.
+  * Declare compliance with Debian Policy 4.4.1.
+
+ -- gregor herrmann <gregoa@debian.org>  Sun, 27 Oct 2019 17:22:33 +0100
+
+libtext-charwidth-perl (0.04-9) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Sven Joachim ]
+  * debian/rules: Use "dh_perl -d" to avoid a dependency on perl
+    (Closes: #941233)
+
+ -- gregor herrmann <gregoa@debian.org>  Fri, 27 Sep 2019 15:12:15 +0200
+
+libtext-charwidth-perl (0.04-8) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Laurent Baillet ]
+  * perl-team becomes package maintainer (Closes: #925110)
+  * d/co : update uploaders, testsuite, vcs urls
+  * fix lintian file-contains-trailing-whitespace warning
+  * update d/watch to metacpan and version 4
+  * remove custom source compression
+  * include module name in package desciption
+  * switch d/control homepage to metacpan
+  * upgrade debhelper compat to 12
+  * make copyright parsable
+  * define testsuite
+  * d/dirs is useless
+
+  [ gregor herrmann ]
+  * Declare compliance with Debian Policy 4.4.0.
+  * Remove trailing whitespace from debian/*.
+  * debian/rules: convert to dh(1).
+  * Add debian/tests/pkg-perl/use-name for autopkgtests.
+
+ -- gregor herrmann <gregoa@debian.org>  Sun, 14 Jul 2019 17:23:40 -0300
+
 libtext-charwidth-perl (0.04-7.1+b1pexip2) pexip; urgency=medium
 
   * Rebuild in buster environment
@@ -62,7 +107,7 @@ libtext-charwidth-perl (0.04-6) unstable; urgency=low
 
 libtext-charwidth-perl (0.04-5) unstable; urgency=low
 
-  * Added debian/watch file 
+  * Added debian/watch file
   * Added homepage control header
   * Bumped Standards-Version to 3.7.3
   * Fixed the following lintian issues:
@@ -76,7 +121,7 @@ libtext-charwidth-perl (0.04-4) unstable; urgency=low
   * Set debian/compat to 5.
 
  -- Anibal Monsalve Salazar <anibal@debian.org>  Thu, 22 Jun 2006 13:38:58 +1000
- 
+
 libtext-charwidth-perl (0.04-3) unstable; urgency=low
 
   * Set Standard-Version to 3.6.2 and Priority to required in
@@ -84,7 +129,7 @@ libtext-charwidth-perl (0.04-3) unstable; urgency=low
   * Added homepage address to description in debian/control.
 
  -- Anibal Monsalve Salazar <anibal@debian.org>  Sat, 08 Oct 2005 22:56:59 +1000
- 
+
 libtext-charwidth-perl (0.04-2) unstable; urgency=low
 
   * New maintainer.
@@ -92,7 +137,7 @@ libtext-charwidth-perl (0.04-2) unstable; urgency=low
   * Added more copyright holders to debian/copyright.
 
  -- Anibal Monsalve Salazar <anibal@debian.org>  Sat, 14 May 2005 12:21:16 +1000
- 
+
 libtext-charwidth-perl (0.04-1) unstable; urgency=low
 
   * New upstream version.
@@ -127,4 +172,3 @@ libtext-charwidth-perl (0.01-1) unstable; urgency=low
   * Initial Release.
 
  -- Tomohiro KUBOTA <kubota@debian.org>  Thu, 19 Jun 2003 17:48:05 +0900
-
