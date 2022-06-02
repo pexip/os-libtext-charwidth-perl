@@ -1,3 +1,9 @@
+libtext-charwidth-perl (0.04-10pexip1) pexip; urgency=medium
+
+  * Initial bullseye build
+
+ -- Mark Hymers <mark.hymers@pexip.com>  Thu, 02 Jun 2022 14:42:29 +0100
+
 libtext-charwidth-perl (0.04-10) unstable; urgency=medium
 
   * Team upload.
