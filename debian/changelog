@@ -1,3 +1,9 @@
+libtext-charwidth-perl (0.04-10+b1pexip1) pexip-bullseye; urgency=medium
+
+  * Bump version number to supercede bullseye.
+
+ -- Mark Hymers <mark.hymers@pexip.com>  Mon, 25 Jul 2022 13:01:21 +0100
+
 libtext-charwidth-perl (0.04-10pexip2) pexip-bullseye; urgency=medium
 
   * Main bullseye build
