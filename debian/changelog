@@ -1,3 +1,21 @@
+libtext-charwidth-perl (0.04-11) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Update standards version to 4.5.0, no changes needed.
+
+  [ gregor herrmann ]
+  * Update 'DEB_BUILD_MAINT_OPTIONS = hardening=+bindnow' to '=+all'.
+
+  [ Debian Janitor ]
+  * Apply multi-arch hints.
+    + libtext-charwidth-perl: Add Multi-Arch: same.
+  * Bump debhelper from old 12 to 13.
+  * Update standards version to 4.5.1, no changes needed.
+  * Update standards version to 4.6.0, no changes needed.
+  * Update standards version to 4.6.1, no changes needed.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Sun, 20 Nov 2022 02:29:40 +0000
+
 libtext-charwidth-perl (0.04-10) unstable; urgency=medium
 
   * Team upload.
