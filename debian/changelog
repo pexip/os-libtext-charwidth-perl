@@ -1,3 +1,9 @@
+libtext-charwidth-perl (0.04-11pexip1) pexip-bookworm; urgency=medium
+
+  * Initial bookworm build
+
+ -- Mark Hymers <mark.hymers@pexip.com>  Thu, 16 Nov 2023 10:07:59 +0000
+
 libtext-charwidth-perl (0.04-11) unstable; urgency=medium
 
   [ Debian Janitor ]
