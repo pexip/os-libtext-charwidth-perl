@@ -1,3 +1,9 @@
+libtext-charwidth-perl (0.04-11+pexip24u3) pexip-bookworm; urgency=medium
+
+  * New versioning scheme
+
+ -- Mark Hymers <mark.hymers@pexip.com>  Thu, 01 Feb 2024 16:07:19 +0000
+
 libtext-charwidth-perl (0.04-11pexip2) pexip-bookworm; urgency=medium
 
   * Bookworm build for product distribution
